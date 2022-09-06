@@ -7,3 +7,6 @@ Exercise 12: Permissions on book files -> -rwxrwxrwx -> Group permissions are re
 Exercise 13: Using the more command to scroll through StudyInScarlet 
 Exercise 15: Rmoved TalesOfOldJapan.txt with rm, since it was not written by Sir Arthur Conan Doyle
 Exercise 16: mv */.txt books movers all files ending in .txt to the books dir
+Exercise 25: Using where to find out Nano is stored in -> /usr/bin/nano
+Exercise 31: The Word "Watson" is mentioned 116 times in the Hound the Baskervilles -> grep -o Watson HoundOfTheBaskervilles.txt | wc -l
+	     grep -o prints very ocurence of the word in a seperate line, wc -l counts the lines of this input
