@@ -1,0 +1,9 @@
+Exercise 9: .txt
+Exercise 10: find - search for files in a directory hierarchy
+Exercise 11: find *.txt | wc -l -> finds all files in dir containing .txt and wrtites them each in a new line.
+	     Output from find is then used on the wc commands which counts words, lines ect. The argument -l returns
+	     the number of lines. -> 8
+Exercise 12: Permissions on book files -> -rwxrwxrwx -> Group permissions are read, write and execute.
+Exercise 13: Using the more command to scroll through StudyInScarlet 
+Exercise 15: Rmoved TalesOfOldJapan.txt with rm, since it was not written by Sir Arthur Conan Doyle
+Exercise 16: mv */.txt books movers all files ending in .txt to the books dir
